@@ -5,4 +5,5 @@ GOTO RUN
 :USE_PEAR_PATH
 set PHPBIN=%PHP_PEAR_PHP_BIN%
 :RUN
-"%PHPBIN%" "%PHP_PEAR_BIN_DIR%\phpdoc" %*
+REM "%PHPBIN%" "%PHP_PEAR_BIN_DIR%\phpdoc" %*
+"%PHPBIN%" "phpdoc" %*
